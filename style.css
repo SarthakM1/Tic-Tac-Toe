@@ -1,0 +1,23 @@
+*,*::after, *::before{
+	box-sizing: border-box;
+}
+:root{
+	--cell-size: 100px;
+}
+body {
+	margin: ;
+}
+.board {
+	width: 100vw;
+	geight:100vh;
+	display:grid;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: repeat(3,auto)
+}
+.cell{
+	width: var(--cell-size);
+	height: 100px;
+	background-color: black;
+	border: 1px solid white;
+}
